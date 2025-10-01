@@ -6,7 +6,7 @@
       "use": "@vercel/node"
     },
     {
-      "src": "pages/api/tamanho.js",
+      "src": "pages/api/peso.js",
       "use": "@vercel/node"
     }
   ],
@@ -17,7 +17,7 @@
     },
     {
       "src": "/api/tamanho",
-      "dest": "/pages/api/tamanho.js"
+      "dest": "/pages/api/peso.js"
     }
   ]
 }
