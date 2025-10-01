@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "pages/api/rola.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "pages/api/tamanho.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/rola",
+      "dest": "/pages/api/rola.js"
+    },
+    {
+      "src": "/api/tamanho",
+      "dest": "/pages/api/tamanho.js"
+    }
+  ]
+}
