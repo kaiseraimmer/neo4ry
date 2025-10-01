@@ -11,6 +11,6 @@ Aqui contém a API dos Comandos do Neo, feitos pelo @kaiseraimmer
 d20
 - `user`: nome do jogador (padrão: Jogador)
 - `max`: número máximo do dado (padrão: 20)
-- `morte`: mensagem para quando morrer (padrão: "MORREU ❌")
-- `neutro`: mensagem neutra (padrão: "não causou dano mas também não levou 🔄")
-- `dano`: mensagem para dano (padrão: "causou DANO 💥")
+- `morte`: qualquer número menor que 5
+- `neutro`: entre 5 e 10
+- `dano`: entre 11 e 20
