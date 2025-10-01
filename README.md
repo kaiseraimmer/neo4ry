@@ -4,7 +4,7 @@ Aqui contém a API dos Comandos do Neo, feitos pelo @kaiseraimmer
 
 ## Comandos atuais
 
-- Comando de d20:: Comando teste
+- Comando de d20: Comando teste
 
 ## Parâmetros
 
